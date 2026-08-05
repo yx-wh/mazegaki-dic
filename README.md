@@ -1,60 +1,82 @@
 # mazegaki-dic
-Google日本語入力で使える、漢直向けの交ぜ書き辞書です。
+Google日本語入力で使える漢直向けの交ぜ書き辞書を、GoldenDictで使えるHunspell辞書に変換します。<br/>
 mecab-ipadic-2.7.0-20070801 の \*.csv から作成しています。
+
+python3 convert_with_conjugation.py && python3 sort_lines.py mazegaki_st.txt mazegaki_st_sorted.txt && python3 dedup_sorted.py mazegaki_st_sorted.txt mazegaki_st_sorted_dedup.txt && python3 merge_with_count.py ja_JP_A.dic mazegaki_st_sorted_dedup.txt ja_JP.dic
 
 ## ファイルの説明
 
-### ipadic.maze.txt
-ほぼフルサイズの交ぜ書き辞書です。エントリ数は 671,223 です。
-
-以下の手順で Google日本語入力用の辞書を作成してください。
-
-1. 「Google日本語入力辞書ツール」を開き、「管理」> 「新規辞書にインポート...」をクリック<br/>
-![image](https://github.com/oktopus1959/mazegaki-dic/assets/69497430/e413b5d1-2a5f-4224-8b5f-aa7a148fa54b)
-
-2. 「ファイル」、「辞書名」を入力して「インポート」をクリック<br/>
-![image](https://github.com/oktopus1959/mazegaki-dic/assets/69497430/d5d812d7-7a77-46c9-97da-8c92cc795c52)
-
-3. 以下のようなダイアログが出らた「OK」をクリック<br/>
-![image](https://github.com/oktopus1959/mazegaki-dic/assets/69497430/162827f3-ddff-4aa4-a659-879e1564432f)
-
-4. 以下のような感じで辞書が作成されます<br/>
-![image](https://github.com/oktopus1959/mazegaki-dic/assets/69497430/1155ce1d-4672-45c1-82bc-b39735c971d6)
-
+### ipadic.maze.csv
+ほぼフルサイズの交ぜ書き辞書です。
 
 エントリの一例:
 ```
-迅速    迅速    名詞形動    じんそく -- BASE
-迅そく  迅速    名詞形動    じんそく
-じん速  迅速    名詞形動    じんそく
+着包み	着包み	名詞	きぐるみ	--	BASE
+着ぐるみ	着包み	名詞	きぐるみ
+き包み	着包み	名詞	きぐるみ
+きぐるみ	着包み	名詞	きぐるみ
+着包み族	着包み族	名詞	きぐるみぞく	--	BASE
+着包みぞく	着包み族	名詞	きぐるみぞく
+着ぐるみ族	着包み族	名詞	きぐるみぞく
+着ぐるみぞく	着包み族	名詞	きぐるみぞく
+き包み族	着包み族	名詞	きぐるみぞく
+き包みぞく	着包み族	名詞	きぐるみぞく
+きぐるみ族	着包み族	名詞	きぐるみぞく
+きぐるみぞく	着包み族	名詞	きぐるみぞく
+着包みん	着包みん	名詞	きぐるみん	--	BASE
+着ぐるみん	着包みん	名詞	きぐるみん
+き包みん	着包みん	名詞	きぐるみん
+きぐるみん	着包みん	名詞	きぐるみん
 
-六分儀  六分儀  名詞    ろくぶんぎ -- BASE
-六分ぎ  六分儀  名詞    ろくぶんぎ
-ろく分ぎ    六分儀  名詞    ろくぶんぎ
-六ぶんぎ    六分儀  名詞    ろくぶんぎ
-ろく分儀    六分儀  名詞    ろくぶんぎ
-六ぶん儀    六分儀  名詞    ろくぶんぎ
-ろくぶん儀  六分儀  名詞    ろくぶんぎ
+思い出す	思い出す	動詞サ行五段	おもいだす	--	BASE
+思いだす	思い出す	動詞サ行五段	おもいだす
+おもい出す	思い出す	動詞サ行五段	おもいだす
+
 ```
 
 「よみ」と「単語」が一致しているエントリには「コメント」に ` -- BASE` と付加してあります。そこから次の `BASE` までが交ぜ書き展開されたエントリとなります。
 
-### ipadic.maze.slim500.txt
-`ipadic.maze.txt` から漢字頻度表の上位500文字について、交ぜ書き展開を削除したものになります。エントリ数は 340,305 です。
-ある程度漢直入力に自信のある方はこちらを使うとよいでしょう。
+新しい単語を追加した後、LibreOffice CalcでC列を1番目のキー、D列を2番目のキー、B列を3番目のキー、A列を4番目のキーとして並べ替えてください。
 
-### kanji-hindo.all.txt
-3500字あまりの漢字を頻度順に並べたもの。元ネタは文化庁の「[漢字出現頻度数調査について](https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/nihongokyoiku_hyojun_wg/04/pdf/91934501_08.pdf)」です。
+### convert_with_conjugation.py
+ipadic.maze.csvをもとにmazegaki_st.txtを生成します。
 
-1行に100文字ずつ並んでいます。
+### mazegaki_st.txt
+GoldenDictで使えるHunspell辞書（の一部）。
 
-### drop_easy_entry.rb
-漢字ファイルを用いて、 `ipadic.maze.txt` からエントリを削除するための ruby スクリプト。
+エントリの一例:
+```
+着ぐるみ st:着包み
+き包み st:着包み
+着包みぞく st:着包み族
+着ぐるみ族 st:着包み族
+着ぐるみぞく st:着包み族
+き包み族 st:着包み族
+き包みぞく st:着包み族
+きぐるみ族 st:着包み族
+着ぐるみん st:着包みん
+き包みん st:着包みん
 
-以下は `ipadic.maze.slim500.txt` を作成したときのコマンドラインです。
+思いだし st:思い出す
+思いださ st:思い出す
+思いだす st:思い出す
+思いだそ st:思い出す
+思いだせ st:思い出す
+おもい出せ st:思い出す
+おもい出し st:思い出す
+おもい出す st:思い出す
+おもい出さ st:思い出す
+おもい出そ st:思い出す
 
 ```
-$ head -n 5 kanji-hindo.all.txt | ruby drop_easy_entry.rb > ipadic.maze.slim500.txt
-```
 
-`kanji-hindo.all.txt` のかわりに自分で容易に打てる漢字を集めたファイルを用いてもかまいません。自分なりの交ぜ書きライフを満喫ください！
+### sort_lines.py
+mazegaki_st.txtを並べ替えます。
+
+### dedup_sorted.py 
+重複した行を取り除きます。
+
+### merge_with_count.py
+python3 merge_with_count.py A B C<br/>
+
+ファイルAとファイルBとをくっつけてファイルCを作ります。またファイルCの冒頭でファイルの行数を記入します。
