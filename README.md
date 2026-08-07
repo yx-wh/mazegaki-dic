@@ -2,7 +2,7 @@
 Google日本語入力で使える漢直向けの交ぜ書き辞書を、GoldenDictで使えるHunspell辞書に変換します。<br/>
 mecab-ipadic-2.7.0-20070801 の \*.csv から作成しています。
 
-python3 convert_with_conjugation.py && python3 sort_lines.py mazegaki_st.txt mazegaki_st_sorted.txt && python3 dedup_sorted.py mazegaki_st_sorted.txt mazegaki_st_sorted_dedup.txt && python3 merge_with_count.py ja_JP_A.dic mazegaki_st_sorted_dedup.txt ja_JP.dic
+python3 convert_with_conjugation.py && python3 sort_lines.py mazegaki_st.txt mazegaki_st_sorted.txt && python3 dedup_sorted.py mazegaki_st_sorted.txt mazegaki_st_sorted_dedup.txt && python3 merge_with_count.py ja_JP.part.txt mazegaki_st_sorted_dedup.txt ja_JP.dic
 
 ## ファイルの説明
 
