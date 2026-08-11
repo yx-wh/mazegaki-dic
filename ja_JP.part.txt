@@ -15105,7 +15105,7 @@
 いじくりまわす/5A5I5T5E5OBDUYUBubKN
 弄くる/5A5I5T5E5OBDUYUBubKN
 いじくる/5A5I5T5E5OBDUYUBubKN
-いじける
+いじける/1KBDUyUbKN
 いじしりょう
 維持飼料
 いじじょう
@@ -43932,7 +43932,7 @@
 おちゃめ
 おちゃらかす
 おちゃらけ
-おちゃらける
+おちゃらける/1KBDUyUbKN
 おちゅうど
 落行く/5A5I5T5E5OBDUYUBubKN
 落ち行く/5A5I5T5E5OBDUYUBubKN
@@ -93019,7 +93019,7 @@
 久隅
 くすみもりかげ
 久隅守景
-くすむ
+くすむ/5A5I5T5E5OBDUYUBubKN
 くすもと
 楠本
 くすもといね
@@ -93392,7 +93392,7 @@
 九谷
 九谷焼
 くたにやき
-くたばる
+くたばる/5A5I5T5E5OBDUYUBubKN
 草臥る/V2
 くたびる/V2
 くたびれ
@@ -98558,7 +98558,7 @@
 ぐれやど
 ぐれ宿
 ぐれりぐれり
-ぐれる
+ぐれる/1KBDUyUbKN
 ぐれん
 紅蓮
 ぐれんじごく
@@ -140681,7 +140681,7 @@
 シク活用
 しくしく
 しくじり
-しくじる
+しくじる/5A5I5T5E5OBDUYUBubKN
 しくじるは稽古のため
 しくち
 仕口
@@ -177847,7 +177847,7 @@ Shirai Jack
 すっぺらぽん
 すっぺり
 すっぽかし
-すっぽかす
+すっぽかす/5A5I5T5E5OBDUYUBubKN
 すっぽぬけ
 すっぽ抜け
 すっぽ抜ける/1KBDUyUbKN
@@ -211162,7 +211162,7 @@ Shirai Jack
 だらくもの
 堕落者
 だらけ
-だらける
+だらける/1KBDUyUbKN
 だらし
 だらしない/XAXaXiXIXUXEXeXxGESAXKToXQXrXO
 だらすけ
@@ -213254,7 +213254,8 @@ Shirai Jack
 竹林精舎
 ちくりんのしちけん
 竹林の七賢
-ちくる
+チクる/5A5I5T5E5OBDUYUBubKN
+ちくる/5A5I5T5E5OBDUYUBubKN
 ちくるい
 畜類
 ちくるいめ
@@ -215484,7 +215485,7 @@ Shirai Jack
 ちゃらきん
 ちゃら金
 ちゃらくら
-ちゃらける
+ちゃらける/1KBDUyUbKN
 ちゃらちゃら
 ちゃらっぽこ
 ちゃらつかす
@@ -239193,7 +239194,7 @@ Shirai Jack
 徒長枝
 とちりれき
 土地履歴
-とちる
+とちる/5A5I5T5E5OBDUYUBubKN
 取っ
 突
 とっ
@@ -274255,7 +274256,8 @@ Shirai Jack
 馬蹄硯
 ばていら
 馬蹄螺
-ばてる
+バテる/1KBDUyUbKN
+ばてる/1KBDUyUbKN
 ばとう
 抜頭
 撥頭
@@ -275089,7 +275091,7 @@ Shirai Jack
 ぱくり
 ぱくりや
 ぱくり屋
-ぱくる
+ぱくる/5A5I5T5E5OBDUYUBubKN
 ぱさつく
 ぱさぱさ
 ぱしり
@@ -276992,7 +276994,7 @@ Shirai Jack
 引け物
 ひけよつ
 引け四つ
-ひけらかす
+ひけらかす/5A5I5T5E5OBDUYUBubKN
 引ける/1KBDUyUbKNV2
 ひける/1KBDUyUbKNV2
 ひけん
@@ -284394,7 +284396,7 @@ Shirai Jack
 びびしい/xAxaxixIxUxExexxXKToXQXrXO
 びびたる
 微微たる
-びびる
+びびる/5A5I5T5E5OBDUYUBubKN
 びふう
 美風
 微服
@@ -296439,7 +296441,7 @@ F
 へたくそ
 へたごうしゃ
 下手巧者
-へたばる
+へたばる/5A5I5T5E5OBDUYUBubKN
 へたへた
 へたもじ
 へた文字
@@ -305735,7 +305737,7 @@ F
 暮夜
 ぼやかす
 ぼやき
-ぼやく
+ぼやく/5A5I5T5E5OBDUYUBubKN
 ぼやける
 ぼやっと
 ぼやぼや
@@ -327833,7 +327835,7 @@ F
 やさき
 矢先
 やさぐれ
-やさぐれる
+やさぐれる/1KBDUyUbKN
 やさけび
 矢叫び
 優しい/xAxaxixIxUxExexxGESAMIXKToXQXrXO
@@ -438122,6 +438124,7 @@ Nikolai Andreevich Rimskii-Korsakov
 リムセ
 リムパック
 RIMPAC
+リムる/5A5I5T5E5OBDUYUBubKN
 リムーバブルディスク
 removable disc
 リムーバブルハードディスク
