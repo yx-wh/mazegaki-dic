@@ -5833,6 +5833,7 @@
 あたけまる
 安宅丸
 あたける/1KBDUyUbKN
+あだける/1KBDUyUbKN
 あたご
 愛宕
 あたごごけ
@@ -8844,6 +8845,7 @@
 あめゆき
 雨雪
 あめり
+あめる/1KBDUyUbKN
 あめわかひこ
 天稚彦
 天若日子
@@ -17278,7 +17280,7 @@
 いちびょうそくさい
 一病息災
 いちびり
-いちびる/1KBDUyUbKN
+いちびる/5A5I5T5E5OBDUYUBubKN
 一顰一笑
 いちびんいっしょう
 いちふじ
@@ -17500,7 +17502,7 @@
 いちもんやっこ
 一文奴
 いちゃいちゃ
-いちゃつく
+いちゃつく/5A5I5T5E5OBDUYUBubKN
 いちゃもん
 いちや
 一夜
@@ -20656,7 +20658,7 @@
 胃病
 いびり出す/5A5I5T5E5OBDUYUBubKN
 いびりだす/5A5I5T5E5OBDUYUBubKN
-いびる
+いびる/5A5I5T5E5OBDUYUBubKN
 いふ
 位封
 夷俘
@@ -25955,8 +25957,8 @@
 烏鵲
 うじゃくきょう
 烏鵲橋
-うじゃける
-うじゃじゃける
+うじゃける/1KBDUyUbKN
+うじゃじゃける/1KBDUyUbKN
 うじやしろ
 氏社
 うじやま
@@ -28757,7 +28759,7 @@
 畝織り
 うねおり
 うねくね
-うねくる
+うねくる/5A5I5T5E5OBDUYUBubKN
 畝刺
 畝刺し
 うねざし
@@ -28786,7 +28788,7 @@
 うねり
 うねりぐし
 うねり串
-うねる
+うねる/5A5I5T5E5OBDUYUBubKN
 うねん
 有念
 うの
@@ -43930,7 +43932,7 @@
 御茶坊主
 御茶目
 おちゃめ
-おちゃらかす
+おちゃらかす/5A5I5T5E5OBDUYUBubKN
 おちゃらけ
 おちゃらける/1KBDUyUbKN
 おちゅうど
@@ -43953,7 +43955,7 @@
 御帳付き
 おちょうめちょう
 雄蝶雌蝶
-おちょくる
+おちょくる/5A5I5T5E5OBDUYUBubKN
 おちょこ
 御猪口
 おちょぼ
@@ -43996,7 +43998,7 @@
 追っ掛ける/1KBDUyUbKNV2
 おっかける/1KBDUyUbKNV2
 おっかさん
-おっかじめる
+おっかじめる/1KBDUyUbKN
 おっかない/GRXKToXQXrXO
 おっかなびっくり
 押っ被さる/5A5I5T5E5OBDUYUBubKN
@@ -44015,8 +44017,8 @@
 臆見
 おっこう
 おっこち
-おっこちる
-おっことす
+おっこちる/1KBDUyUbKN
+おっことす/5A5I5T5E5OBDUYUBubKN
 おっこむ/5A5I5T5E5OBDUYUBubKNV2
 おっさま
 追っ様
@@ -44056,7 +44058,7 @@
 おっつかっつ
 追っ付く/5A5I5T5E5OBDUYUBubKN
 おっつく/5A5I5T5E5OBDUYUBubKN
-おっつくねる
+おっつくねる/1KBDUyUbKN
 おっつけ
 押っ付け
 追っ付け
@@ -45805,8 +45807,8 @@
 御百度
 おひゃくどまいり
 御百度参り
-おひゃらかす
-おひゃる
+おひゃらかす/5A5I5T5E5OBDUYUBubKN
+おひゃる/5A5I5T5E5OBDUYUBubKN
 おひや
 御冷や
 おひやし
@@ -46054,7 +46056,7 @@
 おへやしゅう
 御部屋衆
 おべっか
-おべっかる
+おべっかる/5A5I5T5E5OBDUYUBubKN
 おべんちゃら
 おほ
 おほたき
@@ -57729,7 +57731,7 @@
 かしみせ
 河岸見世
 かしめ
-かしめる
+かしめる/1KBDUyUbKN
 かしもと
 貸元
 かしゃ
@@ -65060,6 +65062,7 @@
 からいり
 からいるい
 花蕾類
+からう/5A5I5T5E5OBDUYUBubKN
 からうす
 唐臼
 からうそ
@@ -73136,7 +73139,8 @@
 がさがさ
 がさごそ
 がさつ/sa
-がさつく
+かさつく/5A5I5T5E5OBDUYUBubKN
+がさつく/5A5I5T5E5OBDUYUBubKN
 がさん
 峨山
 画賛
@@ -73305,7 +73309,7 @@
 がたくり
 がたごと
 がたっと
-がたつく
+がたつく/5A5I5T5E5OBDUYUBubKN
 がたない/XAXaXiXIXUXEXeXx
 がたばしゃ
 がた馬車
@@ -73332,9 +73336,10 @@
 月行司
 がちしょう
 賀知章
+がちつく/5A5I5T5E5OBDUYUBubKN
 がちっと
 がちゃがちゃ
-がちゃつく
+がちゃつく/5A5I5T5E5OBDUYUBubKN
 がちゃり
 がちゃん
 がちゅう
@@ -73560,7 +73565,7 @@
 がっちょ
 合著
 がっちり
-がっつく
+がっつく/5A5I5T5E5OBDUYUBubKN
 がっつり
 合点
 がってん
@@ -73643,7 +73648,7 @@
 がなや
 がなり立てる/1KBDUyUbKNV2
 がなりたてる/1KBDUyUbKNV2
-がなる
+がなる/5A5I5T5E5OBDUYUBubKN
 がに
 がにはりもの
 我に張り者
@@ -73694,13 +73699,13 @@
 がふだい
 楽府題
 がぶがぶ
-がぶつく
+がぶつく/5A5I5T5E5OBDUYUBubKN
 がぶ飲み
 がぶのみ
 がぶり
 がぶりより
 がぶり寄り
-がぶる
+がぶる/5A5I5T5E5OBDUYUBubKN
 がぶん
 雅文
 がぶんたい
@@ -73769,11 +73774,12 @@
 我武者者
 我武者ら
 がむしゃら
+がみつく/5A5I5T5E5OBDUYUBubKN
 がめい
 画名
 雅名
 がめつい
-がめる
+がめる/1KBDUyUbKN
 がめん
 画面
 がめんメモ
@@ -73833,7 +73839,7 @@
 がらっと
 がらっぱち
 がらっぽん
-がらつく
+がらつく/5A5I5T5E5OBDUYUBubKN
 がらぼう
 がら紡
 がらみ
@@ -79856,6 +79862,7 @@
 きまぐれ
 気負け
 きまけ
+きまげる/1KBDUyUbKN
 きまじない
 木呪い
 生真面目/sa
@@ -85003,7 +85010,7 @@
 きょろきょろ
 きょろく
 鉅鹿
-きょろつく
+きょろつく/5A5I5T5E5OBDUYUBubKN
 きょろり
 きょん
 羗
@@ -85222,7 +85229,7 @@
 きらずり
 雲母刷
 きらっと
-きらつく
+きらつく/5A5I5T5E5OBDUYUBubKN
 きらのにきち
 吉良仁吉
 きらびき
@@ -90403,7 +90410,7 @@
 ぎょろぎょろ
 ぎょろっけ
 ぎょろっと
-ぎょろつく
+ぎょろつく/5A5I5T5E5OBDUYUBubKN
 ぎょろめ
 ぎょろ目
 ぎょろり
@@ -90428,7 +90435,7 @@
 ぎらい
 儀礼
 ぎらぎら
-ぎらつく
+ぎらつく/5A5I5T5E5OBDUYUBubKN
 ぎらり
 ぎり
 義理
@@ -91992,7 +91999,7 @@
 くぐむ/5A5I5T5E5OBDUYUBubKNV2
 くぐもりごえ
 くぐもり声
-くぐもる
+くぐもる/5A5I5T5E5OBDUYUBubKN
 潜らせる/1KBDUyUbKN
 くぐらせる/1KBDUyUbKN
 くぐり
@@ -92970,7 +92977,7 @@
 天鼠矢
 くすねいと
 薬煉糸
-くすねる
+くすねる/1KBDUyUbKN
 くすのき
 楠木
 楠
@@ -94135,11 +94142,11 @@
 くったくない/XKToXQXrXO
 くっちせい
 屈地性
-くっちゃべる
+くっちゃべる/5A5I5T5E5OBDUYUBubKN
 くっちゃん
 俱知安
-くっつく
-くっつける
+くっつく/5A5I5T5E5OBDUYUBubKN
+くっつける/1KBDUyUbKN
 くっと
 屈撓
 くっとう
@@ -94711,8 +94718,8 @@
 くねくねし
 くねつ
 苦熱
-くねらす
-くねる
+くねらす/5A5I5T5E5OBDUYUBubKN
+くねる/5A5I5T5E5OBDUYUBubKN
 くねんしゅ
 九年酒
 くねんぼ
@@ -98521,7 +98528,7 @@
 ぐらぐら
 ぐらす
 ぐらっと
-ぐらつく
+ぐらつく/5A5I5T5E5OBDUYUBubKN
 ぐらり
 ぐり
 屈輪
@@ -101844,7 +101851,7 @@
 蹴散らす/5A5I5T5E5OBDUYUBubKN
 けちらす/5A5I5T5E5OBDUYUBubKN
 けちりん
-けちる
+けちる/5A5I5T5E5OBDUYUBubKN
 けちを付ける
 けちんぼう
 けちん坊
@@ -102272,6 +102279,7 @@
 結髪
 けっぱつ
 血判
+けっぱる/5A5I5T5E5OBDUYUBubKN
 けっぱん
 血斑
 けっぱんじょう
@@ -116188,7 +116196,7 @@
 こぐらい/XAXaXiXIXUXEXeXxXKToXQXrXO
 木暗い/XAXaXiXIXUXEXeXxSAXKToXQXrXO
 こぐらい/XAXaXiXIXUXEXeXxSAXKToXQXrXO
-こぐらかる
+こぐらかる/5A5I5T5E5OBDUYUBubKN
 こぐるま
 こぐれ
 木暗れ
@@ -117979,7 +117987,7 @@
 こせつ/sa
 こせつ
 古説
-こせつく
+こせつく/5A5I5T5E5OBDUYUBubKN
 こせと
 古瀬戸
 こせの
@@ -118318,8 +118326,10 @@
 こだる
 木足る/5A5I5T5E5OBDUYUBubKN
 こだる/5A5I5T5E5OBDUYUBubKN
+こだれる/1KBDUyUbKN
 こだわり
-こだわる
+こだわる/5A5I5T5E5OBDUYUBubKN
+拘る/5A5I5T5E5OBDUYUBubKN
 こだんな
 小旦那
 こち
@@ -120539,7 +120549,7 @@
 こびへつらう/5A5I5T5E5OBDUYUBubKN4A4I4E4U
 こびゃくしょう
 小百姓
-こびりつく
+こびりつく/5A5I5T5E5OBDUYUBubKN
 こびる/1KBDUyUbKNv2
 媚びる/1KBDUyUbKNv2
 こびん
@@ -120996,7 +121006,7 @@
 駒沢大学
 こまし
 駒師
-こましゃくれる
+こましゃくれる/1KBDUyUbKN
 こまじ
 細字
 こまじゃく
@@ -121038,11 +121048,11 @@
 小町草
 こまちむすめ
 小町娘
-こまちゃくれる
+こまちゃくれる/1KBDUyUbKN
 こまちやそうしち
 小町屋惣七
-こまっしゃくれる
-こまっちゃくれる
+こまっしゃくれる/1KBDUyUbKN
+こまっちゃくれる/1KBDUyUbKN
 こまつ
 小松
 こまついし
@@ -122312,7 +122322,8 @@
 紺絣
 こんがみ
 紺紙
-こんがらかる
+こんがらかる/5A5I5T5E5OBDUYUBubKN
+こんがらがる/5A5I5T5E5OBDUYUBubKN
 こんがらどうじ
 矜羯羅童子
 金伽羅童子
@@ -122362,7 +122373,7 @@
 こんくらべ
 昏愚
 こんぐ
-こんぐらかる
+こんぐらかる/5A5I5T5E5OBDUYUBubKN
 こんけい
 根系
 根茎
@@ -124744,6 +124755,7 @@
 五尺の身
 ごしゃくびょうぶ
 五尺屛風
+ごしゃげる/1KBDUyUbKN
 ごしゃごしゃ
 ごしゅ
 五種
@@ -125320,8 +125332,8 @@
 ごそしちこくのらん
 呉楚七国の乱
 ごそっと
-ごそつく
-ごそめく
+ごそつく/5A5I5T5E5OBDUYUBubKN
+ごそめく/5A5I5T5E5OBDUYUBubKN
 ごそり
 ごぞう
 五臓
@@ -125370,7 +125382,7 @@
 悟達
 ごたつ
 ごたつき
-ごたつく
+ごたつく/5A5I5T5E5OBDUYUBubKN
 ごたぶん
 御多分
 ごた混ぜ
@@ -125461,7 +125473,7 @@
 ごちゃごちゃ
 ごちゃっこ
 御着袴
-ごちゃつく
+ごちゃつく/5A5I5T5E5OBDUYUBubKN
 ごちゃ混ぜ
 ごちゃまぜ
 ごちゅう
@@ -125537,7 +125549,7 @@
 ごてごて
 ごてさん
 御亭さん
-ごてつく
+ごてつく/5A5I5T5E5OBDUYUBubKN
 ごてどく
 ごて得
 ごてる/1KBDUyUbKN
@@ -125684,7 +125696,7 @@
 如し
 若し
 ごとし
-ごとつく
+ごとつく/5A5I5T5E5OBDUYUBubKN
 毎に
 ごとに
 ごとばてんのう
@@ -125766,7 +125778,7 @@
 ごにんばり
 ごねどく
 ごね得
-ごねる
+ごねる/1KBDUyUbKN
 ごねん
 御念
 護念
@@ -126106,7 +126118,7 @@
 ごまいじゅす
 五枚繻子
 ごまかし
-ごまかす
+ごまかす/5A5I5T5E5OBDUYUBubKN
 ごまがら
 胡麻幹
 ごまがらじゃくり
@@ -126534,7 +126546,7 @@
 ごろちゃら
 ごろっと
 ごろつき
-ごろつく
+ごろつく/5A5I5T5E5OBDUYUBubKN
 ごろね
 ごろはちぢゃわん
 五郎八茶碗
@@ -130939,7 +130951,7 @@
 ささくれ
 ささくれ立つ/5A5I5T5E5OBDUYUBubKN
 ささくれだつ/5A5I5T5E5OBDUYUBubKN
-ささくれる
+ささくれる/1KBDUyUbKN
 捧ぐ/V2
 ささぐ/V2
 ささぐま
@@ -131076,7 +131088,7 @@
 私語
 ささめき
 ささめきごと
-ささめく
+ささめく/5A5I5T5E5OBDUYUBubKN
 ささめごと
 ささめゆき
 細雪
@@ -131177,7 +131189,7 @@
 さざなみや
 さざめかす
 さざめき
-さざめく
+さざめく/5A5I5T5E5OBDUYUBubKN
 さざれ
 細れ
 さざれいし
@@ -133881,7 +133893,7 @@
 さらぬ
 然らば
 さらば
-さらばう
+さらばう/5A5I5T5E5OBDUYUBubKN
 さらばえる/1KBDUyUbKN
 さらばかり
 皿秤
@@ -133891,7 +133903,7 @@
 さらばち
 さらびょう
 皿鋲
-さらぼう
+さらぼう/5A5I5T5E5OBDUYUBubKN
 さらまなこ
 皿眼
 さらまわし
@@ -134010,6 +134022,7 @@
 さるがしこい/XAXaXiXIXUXEXeXxXKToXQXrXO
 さるがみ
 猿神
+さるく/5A5I5T5E5OBDUYUBubKN
 さるくいわし
 猿喰鷲
 さるぐつわ
@@ -135296,7 +135309,7 @@
 山樝子
 山査子
 さんざっぱら
-さんざめく
+さんざめく/5A5I5T5E5OBDUYUBubKN
 さんざん
 三山
 散散
@@ -138361,7 +138374,7 @@
 ざらがみ
 ざら紙
 ざらざら
-ざらつく
+ざらつく/5A5I5T5E5OBDUYUBubKN
 ざらば
 ざら場
 ざらめ
@@ -139967,7 +139980,7 @@
 志賀の都
 しがのやまごえ
 志賀の山越
-しがみつく
+しがみつく/5A5I5T5E5OBDUYUBubKN
 しがやま
 志賀山
 滋賀山
@@ -140785,7 +140798,7 @@
 絓絹
 湿気臭い/XKToXQXrXO
 しけくさい/XKToXQXrXO
-しけこむ
+しけこむ/5A5I5T5E5OBDUYUBubKN
 しけし
 しけしだ
 湿羊歯
@@ -142019,6 +142032,7 @@
 しじらふじ
 しじりつ
 支持率
+しじれる/1KBDUyUbKN
 しじん
 使人
 四神
@@ -143335,7 +143349,7 @@
 歯朶飾り
 しだがわ
 歯朶革
-しだく
+しだく/5A5I5T5E5OBDUYUBubKN
 しだし
 仕出し
 しだしべんとう
@@ -144641,8 +144655,8 @@
 してみると
 してみれば
 しても
-為て遣られる
-してやられる
+為て遣られる/1KBDUyUbKN
+してやられる/1KBDUyUbKN
 為て遣る/5A5I5T5E5OBDUYUBubKN
 してやる/5A5I5T5E5OBDUYUBubKN
 してん
@@ -145812,7 +145826,7 @@
 芝木
 しばきよしこ
 芝木好子
-しばく
+しばく/5A5I5T5E5OBDUYUBubKN
 しばくさ
 しばぐり
 芝栗
@@ -145986,7 +146000,7 @@
 司馬遼太郎
 縛る/5A5I5T5E5OBDUYUBubKN
 しばる/5A5I5T5E5OBDUYUBubKN
-しばれる
+しばれる/1KBDUyUbKN
 しばんむし
 死番虫
 しひ
@@ -147117,14 +147131,14 @@
 清水安三
 しみずトンネル
 清水トンネル
-しみたれる
+しみたれる/1KBDUyUbKN
 しみだいこん
 凍み大根
 染み出す/5A5I5T5E5OBDUYUBubKN
 滲み出す/5A5I5T5E5OBDUYUBubKN
 しみだす/5A5I5T5E5OBDUYUBubKN
 しみったれ
-しみったれる
+しみったれる/1KBDUyUbKN
 至密
 しみつ
 染付く/5A5I5T5E5OBDUYUBubKN
@@ -148567,7 +148581,7 @@
 曲見
 しゃくみょう
 釈名
-しゃくむ
+しゃくむ/5A5I5T5E5OBDUYUBubKN
 しゃくめい
 借名
 釈明
@@ -149288,7 +149302,7 @@
 しゃぶつ
 しゃぶり付く/5A5I5T5E5OBDUYUBubKN
 しゃぶりつく/5A5I5T5E5OBDUYUBubKN
-しゃぶる
+しゃぶる/5A5I5T5E5OBDUYUBubKN
 遮蔽
 しゃへい
 しゃへいかくほう
@@ -157795,7 +157809,7 @@
 食パン
 処遇
 しょぐう
-しょぐる
+しょぐる/5A5I5T5E5OBDUYUBubKN
 しょけ
 庶家
 所化
@@ -158297,7 +158311,7 @@
 しょっぱい/SAXKToXQXrXO
 しょっぱな
 初っ端
-しょっぴく
+しょっぴく/5A5I5T5E5OBDUYUBubKN
 しょつう
 書通
 しょづくえ
@@ -158462,7 +158476,7 @@
 書票
 書評
 諸表
-しょびく
+しょびく/5A5I5T5E5OBDUYUBubKN
 しょびょう
 諸病
 しょびん
@@ -158530,10 +158544,10 @@
 しょぼい
 しょぼう
 書房
-しょぼくれる
+しょぼくれる/1KBDUyUbKN
 しょぼしょぼ
-しょぼたれる
-しょぼつく
+しょぼたれる/1KBDUyUbKN
+しょぼつく/5A5I5T5E5OBDUYUBubKN
 しょぼ濡れる/1KBDUyUbKNV2
 しょぼぬれる/1KBDUyUbKNV2
 しょぼんと
@@ -159057,7 +159071,7 @@ Shirai Jack
 白茶ける/1KBDUyUbKN
 しらちゃける/1KBDUyUbKN
 しらっと
-しらっぱくれる
+しらっぱくれる/1KBDUyUbKN
 しらつか
 白柄
 しらつかぐみ
@@ -159156,10 +159170,10 @@ Shirai Jack
 白張仕丁
 しらはりぢょうちん
 白張り提灯
-しらばくれる
+しらばくれる/1KBDUyUbKN
 白化け
 しらばけ
-しらばっくれる
+しらばっくれる/1KBDUyUbKN
 白ばむ/5A5I5T5E5OBDUYUBubKN
 しらばむ/5A5I5T5E5OBDUYUBubKN
 しらばやし
@@ -159891,7 +159905,7 @@ Shirai Jack
 しろくれない
 白紅
 しろくろ
-しろぐ
+しろぐ/5A5I5T5E5OBDUYUBubKN
 しろぐち
 白口
 しろぐつ
@@ -164488,7 +164502,7 @@ Shirai Jack
 軸吊り
 じくど
 竺土
-じくねる
+じくねる/1KBDUyUbKN
 じくばり
 字配り
 じくばりき
@@ -166543,7 +166557,7 @@ Shirai Jack
 じとっこ
 地頭鶏
 じとっと
-じとつく
+じとつく/5A5I5T5E5OBDUYUBubKN
 じとめ
 じと目
 じとり
@@ -166998,7 +167012,7 @@ Shirai Jack
 治部卿
 じぶぎょう
 地奉行
-じぶくる
+じぶくる/5A5I5T5E5OBDUYUBubKN
 じぶくろ
 地袋
 じぶしょう
@@ -167246,7 +167260,7 @@ Shirai Jack
 じめじめ
 自滅
 じめつ
-じめつく
+じめつく/5A5I5T5E5OBDUYUBubKN
 じめん
 地面
 じめんし
@@ -170959,7 +170973,7 @@ Shirai Jack
 じょうけつ
 城闕
 浄潔
-じょうける
+じょうける/1KBDUyUbKN
 じょうけん
 上件
 常建
@@ -177796,7 +177810,7 @@ Shirai Jack
 すっくと
 すっくり
 すっこかし
-すっこむ
+すっこむ/5A5I5T5E5OBDUYUBubKN
 素っ転ぶ/5A5I5T5E5OBDUYUBubKN
 すっころぶ/5A5I5T5E5OBDUYUBubKN
 すっすっ
@@ -178276,7 +178290,7 @@ Shirai Jack
 すばえ
 すばく
 寸白
-すばける
+すばける/1KBDUyUbKN
 すばこ
 巣箱
 すばしこい/XAXaXiXIXUXEXeXxSAXKToXQXrXO
@@ -179809,7 +179823,7 @@ Shirai Jack
 頭頂
 ずっかと
 ずっけり
-ずっこける
+ずっこける/1KBDUyUbKN
 ずっこり
 ずっしり
 ずっと
@@ -179927,8 +179941,8 @@ Shirai Jack
 図様
 図葉
 ずら
-ずらかる
-ずらす
+ずらかる/5A5I5T5E5OBDUYUBubKN
+ずらす/5A5I5T5E5OBDUYUBubKN
 ずらずら
 ずらっと
 ずらり
@@ -179954,11 +179968,12 @@ Shirai Jack
 ずるい/XAXaXiXIXUXEXeXxSAXKToXQXrXO
 狡賢い/XKToXQXrXO
 ずるがしこい/XKToXQXrXO
-ずるける
+ずるける/1KBDUyUbKN
 狡し/XAXaXiXIXUXEXeXx
 ずるし/XAXaXiXIXUXEXeXx
 ずるずる
 ずるずるべったり
+ずるっこける/1KBDUyUbKN
 ずる休み
 ずるやすみ
 ずるり
@@ -183806,7 +183821,7 @@ Shirai Jack
 施餓鬼船
 せがしら
 瀬頭
-せがむ
+せがむ/5A5I5T5E5OBDUYUBubKN
 せがれ
 倅
 せがわ
@@ -184802,10 +184817,11 @@ Shirai Jack
 せさきばおり
 背裂羽織
 せし/XAXaXiXIXUXEXeXx
+せしこう/5A5I5T5E5OBDUYUBubKN
 せしむる
 せしめうるし
 瀬〆漆
-せしめる
+せしめる/1KBDUyUbKN
 せしゅ
 施主
 世襲
@@ -184848,7 +184864,7 @@ Shirai Jack
 せせかむ
 せせく
 せせくしゃ
-せせくる
+せせくる/5A5I5T5E5OBDUYUBubKN
 せせこましい/xAxaxixIxUxExexxSAXKToXQXrXO
 せせつ
 世説
@@ -185999,7 +186015,7 @@ Shirai Jack
 背開き
 せびり取る/5A5I5T5E5OBDUYUBubKN
 せびりとる/5A5I5T5E5OBDUYUBubKN
-せびる
+せびる/5A5I5T5E5OBDUYUBubKN
 せびれ
 背鰭
 せふりさん
@@ -193379,7 +193395,7 @@ Shirai Jack
 そくいん
 仄韻
 惻隠
-そくう
+そくう/5A5I5T5E5OBDUYUBubKN
 そくうれ
 即売れ
 そくえ
@@ -194409,15 +194425,15 @@ Shirai Jack
 そそうび
 粗相火
 そそかしい/xAxaxixIxUxExexxXKToXQXrXO
-そそきたつ
+そそきたつ/5A5I5T5E5OBDUYUBubKN
 注ぎ込む/5A5I5T5E5OBDUYUBubKN
 そそぎこむ/5A5I5T5E5OBDUYUBubKN
-そそく
+そそく/5A5I5T5E5OBDUYUBubKN
 蘇息
 阻塞
 そそくさ
 そそくさい/XAXaXiXIXUXEXeXxXKToXQXrXO
-そそくる
+そそくる/5A5I5T5E5OBDUYUBubKN
 そそくれる/1KBDUyUbKNV2
 注ぐ/5A5I5T5E5OBDUYUBubKN
 灌ぐ/5A5I5T5E5OBDUYUBubKN
@@ -194458,7 +194474,7 @@ Shirai Jack
 そそり節
 そそりもの
 そそり者
-そそる
+そそる/5A5I5T5E5OBDUYUBubKN
 そそろか
 そぞう
 塑像
@@ -195872,7 +195888,7 @@ Shirai Jack
 征矢
 征箭
 粗野
-そやす
+そやす/5A5I5T5E5OBDUYUBubKN
 そやつ
 添ゆ/V2
 そゆ/V2
@@ -195902,7 +195918,7 @@ Shirai Jack
 そよふく/5A5I5T5E5OBDUYUBubKN
 そよみ
 そよめき
-そよめく
+そよめく/5A5I5T5E5OBDUYUBubKN
 そよや
 そより
 そよろ
@@ -196413,7 +196429,7 @@ Shirai Jack
 そわせる/1KBDUyUbKNV2
 そわそわ
 そわそわしい
-そわつく
+そわつく/5A5I5T5E5OBDUYUBubKN
 そわづたい
 岨伝ひ
 そわみち
@@ -197802,7 +197818,7 @@ Shirai Jack
 ぞろっぺえ
 ぞろめ
 ぞろ目
-ぞろめく
+ぞろめく/5A5I5T5E5OBDUYUBubKN
 ぞろり
 ぞわぞわ
 ぞん
@@ -201085,6 +201101,7 @@ Shirai Jack
 たがえす/5A5I5T5E5OBDUYUBubKN
 違える/1KBDUyUbKNV2
 たがえる/1KBDUyUbKNV2
+たがく/5A5I5T5E5OBDUYUBubKN
 たがく
 多額
 たがくのうぜいしゃぎいん
@@ -202524,7 +202541,7 @@ Shirai Jack
 多情仏心
 たじるし
 田印
-たじれる
+たじれる/1KBDUyUbKN
 たじろぎ
 たじろぐ/5A5I5T5E5OBDUYUBubKN
 足す/5A5I5T5E5OBDUYUBubKN
@@ -202786,6 +202803,7 @@ Shirai Jack
 敲く/5A5I5T5E5OBDUYUBubKN
 たたく/5A5I5T5E5OBDUYUBubKN
 たたくる
+たたくれる/1KBDUyUbKN
 たたけ
 狸
 たたさ
@@ -210400,7 +210418,7 @@ Shirai Jack
 諾成契約
 だくだく
 諾諾
-だくつく
+だくつく/5A5I5T5E5OBDUYUBubKN
 だくてん
 濁点
 だくど
@@ -211062,7 +211080,7 @@ Shirai Jack
 だぶだぶ
 だぶつ
 駄物
-だぶつく
+だぶつく/5A5I5T5E5OBDUYUBubKN
 だぶん
 駄文
 駄弁る/5A5I5T5E5OBDUYUBubKN
@@ -211093,7 +211111,7 @@ Shirai Jack
 だま
 騙かす/5A5I5T5E5OBDUYUBubKN
 だまかす/5A5I5T5E5OBDUYUBubKN
-だまくらかす
+だまくらかす/5A5I5T5E5OBDUYUBubKN
 だまし
 騙し
 だましうち
@@ -211176,6 +211194,7 @@ Shirai Jack
 だらだら坂
 だらだらのぼり
 だらだら上り
+だらつく/5A5I5T5E5OBDUYUBubKN
 だらに
 陀羅尼
 だらにがね
@@ -211192,8 +211211,9 @@ Shirai Jack
 だりつ
 打率
 だりむくり
-だりむくる
+だりむくる/5A5I5T5E5OBDUYUBubKN
 だりむくれ
+だりむくれる/1KBDUyUbKN
 だりょく
 惰力
 打力
@@ -211278,7 +211298,7 @@ Shirai Jack
 だれもかも
 誰も彼も
 だれもかれも
-だれる
+だれる/1KBDUyUbKN
 だろう
 舵楼
 だろううんてん
@@ -213296,6 +213316,7 @@ Shirai Jack
 ちぐしんらいさん
 痴愚神礼讃
 ちぐはぐ
+ちぐぬく/5A5I5T5E5OBDUYUBubKN
 ちけい
 地景
 知契
@@ -214386,6 +214407,7 @@ Shirai Jack
 千葉
 ちばかめお
 千葉亀雄
+ちばける/1KBDUyUbKN
 ちばこうぎょうだいがく
 千葉工業大学
 ちばしゅうさく
@@ -214787,7 +214809,7 @@ Shirai Jack
 ちゃかご
 茶籠
 茶籃
-ちゃかす
+ちゃかす/5A5I5T5E5OBDUYUBubKN
 茶滓
 ちゃかた
 茶方
@@ -215488,7 +215510,7 @@ Shirai Jack
 ちゃらける/1KBDUyUbKN
 ちゃらちゃら
 ちゃらっぽこ
-ちゃらつかす
+ちゃらつかす/5A5I5T5E5OBDUYUBubKN
 ちゃらぽこ
 ちゃらめかす
 ちゃらん
@@ -219709,7 +219731,7 @@ Shirai Jack
 直流電流
 ちょくりゅうはつでんき
 直流発電機
-ちょくる
+ちょくる/5A5I5T5E5OBDUYUBubKN
 ちょくるす
 直留守
 ちょくれい
@@ -219808,6 +219830,7 @@ Shirai Jack
 著述家
 ちょじゅつぎょう
 著述業
+ちょす/5A5I5T5E5OBDUYUBubKN
 ちょすい
 貯水
 ちょすいそう
@@ -220052,7 +220075,7 @@ Shirai Jack
 ちょろちょろ
 ちょろっか
 ちょろっと
-ちょろまかす
+ちょろまかす/5A5I5T5E5OBDUYUBubKN
 ちょろり
 ちょろん
 ちょん
@@ -220149,7 +220172,7 @@ Shirai Jack
 ちらちら
 ちらっと
 ちらつかせる/1KBDUyUbKNV2
-ちらつく
+ちらつく/5A5I5T5E5OBDUYUBubKN
 ちらと
 散らばす/5A5I5T5E5OBDUYUBubKN
 ちらばす/5A5I5T5E5OBDUYUBubKN
@@ -220157,7 +220180,7 @@ Shirai Jack
 散らばる/5A5I5T5E5OBDUYUBubKN
 ちらばる/5A5I5T5E5OBDUYUBubKN
 ちらほら
-ちらめく
+ちらめく/5A5I5T5E5OBDUYUBubKN
 ちらり
 ちらりちらり
 ちらりほらり
@@ -224997,6 +225020,7 @@ Shirai Jack
 妻板
 つまいり
 妻入り
+つまえる/1KBDUyUbKN
 つまおと
 爪音
 つまおめし
@@ -225046,6 +225070,7 @@ Shirai Jack
 褄黒
 つまぐろよこばい
 褄黒横這
+つまげる/1KBDUyUbKN
 つまこ
 つまご
 妻籠
@@ -226476,7 +226501,7 @@ Shirai Jack
 つんと
 つんどく
 積ん読
-つんのめる
+つんのめる/5A5I5T5E5OBDUYUBubKN
 つんぼ
 聾
 つんぼさじき
@@ -227903,7 +227928,7 @@ Shirai Jack
 てかせ
 手械
 手枷
-てかつく
+てかつく/5A5I5T5E5OBDUYUBubKN
 てかてか
 てかばん
 手鞄
@@ -227911,7 +227936,7 @@ Shirai Jack
 てからが
 てからに
 てかり
-てかる
+てかる/5A5I5T5E5OBDUYUBubKN
 てがい
 手蓋
 手飼い
@@ -228373,8 +228398,8 @@ Shirai Jack
 てくらがり
 手暗がり
 てくり
-てくる
-てくれる
+てくる/5A5I5T5E5OBDUYUBubKN
+てくれる/1KBDUyUbKN
 てくろ
 てくろもの
 てくろ物
@@ -228433,7 +228458,7 @@ Shirai Jack
 梃子摺る/5A5I5T5E5OBDUYUBubKN
 てこずる/5A5I5T5E5OBDUYUBubKN
 てこそ
-てこねる
+てこねる/1KBDUyUbKN
 てこのしゅう
 手子の衆
 てこへん
@@ -232523,7 +232548,7 @@ Shirai Jack
 でれすけ
 でれ助
 でれっと
-でれつく
+でれつく/5A5I5T5E5OBDUYUBubKN
 でれでれ
 でれる
 でろ
@@ -239368,7 +239393,7 @@ Shirai Jack
 とっちりとん
 とっちりもの
 とっちり者
-とっちる
+とっちる/1KBDUyUbKN
 取っ捕まえる/1KBDUyUbKN
 とっつかまえる/1KBDUyUbKN
 取っ捕まる/5A5I5T5E5OBDUYUBubKN
@@ -244197,7 +244222,7 @@ Shirai Jack
 度器
 怒気
 どきっと
-どきつく
+どきつく/5A5I5T5E5OBDUYUBubKN
 どきどき
 どきゅう
 土弓
@@ -244872,7 +244897,7 @@ Shirai Jack
 泥鰌髭
 どじょうびせいぶつ
 土壌微生物
-どじる
+どじる/5A5I5T5E5OBDUYUBubKN
 どじを踏む
 どじん
 土人
@@ -245240,7 +245265,7 @@ Shirai Jack
 土木の変
 どぼん
 どま
-どまくれる
+どまくれる/1KBDUyUbKN
 どまじき
 土間敷
 どまどま
@@ -245283,7 +245308,7 @@ Shirai Jack
 どやくや
 どやくやまぎれ
 どやしつける/1KBDUyUbKNV2
-どやす
+どやす/5A5I5T5E5OBDUYUBubKN
 どやつ
 どやどや
 どやる
@@ -245395,7 +245420,7 @@ Shirai Jack
 どれほど
 何れ程
 どれも
-どれる
+どれる/1KBDUyUbKN
 どろ
 どろあい
 泥藍
@@ -248918,7 +248943,7 @@ Shirai Jack
 なぞらえる/1KBDUyUbKNV2
 なぞり書き
 なぞりがき
-なぞる
+なぞる/5A5I5T5E5OBDUYUBubKN
 なた
 鉈
 名立てがましい/xAxaxixIxUxExexxXKToXQXrXO
@@ -253144,7 +253169,7 @@ Shirai Jack
 にこたま
 二子玉
 にこっと
-にこつく
+にこつく/5A5I5T5E5OBDUYUBubKN
 にこで
 和手
 柔手
@@ -253921,7 +253946,7 @@ Shirai Jack
 にじりよる/5A5I5T5E5OBDUYUBubKN
 にじりん
 二次林
-にじる
+にじる/1KBDUyUbKN
 煮汁
 躙る/5A5I5T5E5OBDUYUBubKN
 にじる/5A5I5T5E5OBDUYUBubKN
@@ -254042,7 +254067,7 @@ Shirai Jack
 にたたせる/1KBDUyUbKN
 煮立つ/5A5I5T5E5OBDUYUBubKNV2
 にたつ/5A5I5T5E5OBDUYUBubKNV2
-にたつく
+にたつく/5A5I5T5E5OBDUYUBubKN
 煮立てる/1KBDUyUbKNV2
 にたてる/1KBDUyUbKNV2
 にたにた
@@ -254284,7 +254309,7 @@ Shirai Jack
 にちめんけいか
 日面経過
 にちもつ
-にちゃつく
+にちゃつく/5A5I5T5E5OBDUYUBubKN
 にちゃにちゃ
 にちや
 日夜
@@ -254339,7 +254364,7 @@ Shirai Jack
 日輪
 にちりんそう
 日輪草
-にちる
+にちる/1KBDUyUbKN
 にちれい
 日齢
 にちれん
@@ -255684,14 +255709,14 @@ Shirai Jack
 若気
 にやけおとこ
 若気男
-にやける
+にやける/1KBDUyUbKN
 にやこい
 にやす
 煮やす/5A5I5T5E5OBDUYUBubKN
 にやす/5A5I5T5E5OBDUYUBubKN
 荷厄介/sa
 にやっかい/sa
-にやつく
+にやつく/5A5I5T5E5OBDUYUBubKN
 にやつこらし
 にやにや
 にやり
@@ -257629,7 +257654,7 @@ Shirai Jack
 ぬたうつ
 ぬたうなぎ
 沼田鰻
-ぬたくる
+ぬたくる/5A5I5T5E5OBDUYUBubKN
 ぬたなます
 饅膾
 ぬたはだ
@@ -258922,6 +258947,7 @@ Shirai Jack
 ねちもの
 ねち者
 ねちょう
+ねちる/1KBDUyUbKN
 根帳
 ねっか
 捏和
@@ -259292,7 +259318,7 @@ Shirai Jack
 寝て曜日
 ねとうしん
 子灯心
-ねとつく
+ねとつく/5A5I5T5E5OBDUYUBubKN
 ねとねと
 寝惚ける/1KBDUyUbKNV2
 ねとぼける/1KBDUyUbKNV2
@@ -261524,7 +261550,7 @@ Shirai Jack
 のさのさ
 のさばり返る/5A5I5T5E5OBDUYUBubKN
 のさばりかえる/5A5I5T5E5OBDUYUBubKN
-のさばる
+のさばる/5A5I5T5E5OBDUYUBubKN
 のさもの
 のさ者
 のざき
@@ -261757,8 +261783,8 @@ Shirai Jack
 のぞむらくは
 のたうち回る/5A5I5T5E5OBDUYUBubKN
 のたうちまわる/5A5I5T5E5OBDUYUBubKN
-のたうつ
-のたくる
+のたうつ/5A5I5T5E5OBDUYUBubKN
+のたくる/5A5I5T5E5OBDUYUBubKN
 のたばく
 宣ばく
 曰ばく
@@ -261775,11 +261801,12 @@ Shirai Jack
 のたもう/4A4I4E4U
 のたり
 のたりのたり
-のたる
+のたる/5A5I5T5E5OBDUYUBubKN
 のたれ
 湾
 野垂れ死に
 のたれじに
+のたれる/1KBDUyUbKN
 のだ
 野田
 のだいこ
@@ -262644,7 +262671,7 @@ Shirai Jack
 野村望東尼
 のめしまげ
 のめし髷
-のめす
+のめす/5A5I5T5E5OBDUYUBubKN
 のめずり込む/5A5I5T5E5OBDUYUBubKN
 のめずりこむ/5A5I5T5E5OBDUYUBubKN
 のめずる
@@ -262654,7 +262681,7 @@ Shirai Jack
 のめり下駄
 のめり込む/5A5I5T5E5OBDUYUBubKN
 のめりこむ/5A5I5T5E5OBDUYUBubKN
-のめる
+のめる/5A5I5T5E5OBDUYUBubKN
 飲める/1KBDUyUbKN
 のめる/1KBDUyUbKN
 のもじ
@@ -262707,7 +262734,7 @@ Shirai Jack
 のらしごと
 野良仕事
 のらっぽ
-のらつく
+のらつく/5A5I5T5E5OBDUYUBubKN
 のらでんぱ
 野良電波
 のらともだち
@@ -265530,11 +265557,11 @@ Shirai Jack
 はぐま
 はぐみ
 葉組
-はぐらかす
+はぐらかす/5A5I5T5E5OBDUYUBubKN
 はぐらがく
 羽倉学
-はぐらす
-はぐる
+はぐらす/5A5I5T5E5OBDUYUBubKN
+はぐる/5A5I5T5E5OBDUYUBubKN
 逸る/V2
 はぐる/V2
 はぐるま
@@ -266992,7 +267019,7 @@ Shirai Jack
 はため
 傍迷惑
 はためいわく
-はためく
+はためく/5A5I5T5E5OBDUYUBubKN
 はたもち
 旗持
 はたもと
@@ -267177,6 +267204,7 @@ Shirai Jack
 肌付き
 はだつけ
 肌付け
+はだてる/1KBDUyUbKN
 はだに
 葉蜱
 はだぬぎ
@@ -269707,7 +269735,7 @@ Shirai Jack
 はにかみ
 はにかみや
 はにかみ屋
-はにかむ
+はにかむ/5A5I5T5E5OBDUYUBubKN
 はにく
 はにごろう
 羽仁五郎
@@ -270082,6 +270110,7 @@ Shirai Jack
 羽二重カナキン
 はぶちゃ
 波布茶
+はぶてる/1KBDUyUbKN
 羽振
 羽振り
 はぶり
@@ -273882,11 +273911,12 @@ Shirai Jack
 ばこそ
 婆娑
 ばさ
+ばさける/1KBDUyUbKN
 ばさし
 馬刺
 罵殺
 ばさつ
-ばさつく
+ばさつく/5A5I5T5E5OBDUYUBubKN
 ばさばさ
 ばさら
 伐折羅
@@ -274029,7 +274059,7 @@ Shirai Jack
 ばたち
 場立ち
 ばたっと
-ばたつく
+ばたつく/5A5I5T5E5OBDUYUBubKN
 ばたばた
 ばたや
 ばた屋
@@ -274106,7 +274136,7 @@ Shirai Jack
 ばっくよらく
 抜苦与楽
 ばっくれ
-ばっくれる
+ばっくれる/1KBDUyUbKN
 末家
 ばっけ
 抜剣
@@ -274397,7 +274427,7 @@ Shirai Jack
 薔薇疹
 ばらじゅうじうんどう
 薔薇十字運動
-ばらす
+ばらす/5A5I5T5E5OBDUYUBubKN
 ばらずし
 散鮨
 ばらずみ
@@ -274414,7 +274444,7 @@ Shirai Jack
 薔薇鱮
 ばらだま
 ばらつき
-ばらつく
+ばらつく/5A5I5T5E5OBDUYUBubKN
 散積み
 ばらづみ
 ばらに
@@ -274471,7 +274501,8 @@ Shirai Jack
 ばれ句
 ばればれ
 ばれもと
-ばれる
+ばれる/1KBDUyUbKN
+バレる/1KBDUyUbKN
 ばれん
 馬楝
 馬簾
@@ -275086,13 +275117,14 @@ Shirai Jack
 ぱ行
 パ行
 ぱくっと
-ぱくつく
+ぱくつく/5A5I5T5E5OBDUYUBubKN
 ぱくぱく
 ぱくり
 ぱくりや
 ぱくり屋
 ぱくる/5A5I5T5E5OBDUYUBubKN
-ぱさつく
+パクる/5A5I5T5E5OBDUYUBubKN
+ぱさつく/5A5I5T5E5OBDUYUBubKN
 ぱさぱさ
 ぱしり
 ぱたっと
@@ -275121,7 +275153,7 @@ Shirai Jack
 ぱつぱつ
 ぱつんぱつん
 ぱぱっと
-ぱらつく
+ぱらつく/5A5I5T5E5OBDUYUBubKN
 ぱらぱら
 ぱらり
 ぱらルビ
@@ -276896,7 +276928,7 @@ Shirai Jack
 簸屑
 卑屈/sa
 ひくつ/sa
-ひくつく
+ひくつく/5A5I5T5E5OBDUYUBubKN
 ひくて
 引く手
 ひくひく
@@ -282489,11 +282521,12 @@ Shirai Jack
 ひょっとしたら
 ひょっとして
 ひょっとすると
-ひょろける
-ひょろつく
+ひょろける/1KBDUyUbKN
+ひょろつく/5A5I5T5E5OBDUYUBubKN
 ひょろ長い/SAXKToXQXrXO
 ひょろながい/SAXKToXQXrXO
 ひょろひょろ
+ひょろめく/5A5I5T5E5OBDUYUBubKN
 ひょろり
 ひょんな
 ひょんのき
@@ -282905,7 +282938,7 @@ Shirai Jack
 平塚
 ひらつからいちょう
 平塚らいてう
-ひらつく
+ひらつく/5A5I5T5E5OBDUYUBubKN
 ひらつぼ
 平坪
 ひらづくり
@@ -283123,7 +283156,7 @@ Shirai Jack
 ひりだす/5A5I5T5E5OBDUYUBubKN
 ひりつ
 比率
-ひりつく
+ひりつく/5A5I5T5E5OBDUYUBubKN
 ひりつほう
 比率法
 ひりひり
@@ -283976,7 +284009,7 @@ Shirai Jack
 微苦笑
 びくしょう
 びくっと
-びくつく
+びくつく/5A5I5T5E5OBDUYUBubKN
 びくとも
 びくに
 比丘尼
@@ -284895,7 +284928,7 @@ Shirai Jack
 微落
 びらく
 びらしゃら
-びらつく
+びらつく/5A5I5T5E5OBDUYUBubKN
 びらびら
 びらり
 びらりしゃらり
@@ -284912,7 +284945,7 @@ Shirai Jack
 びりっけつ
 びりっ尻
 びりっと
-びりつく
+びりつく/5A5I5T5E5OBDUYUBubKN
 びりびり
 びりゅうし
 微粒子
@@ -285279,6 +285312,7 @@ Shirai Jack
 ぴり辛
 ぴりから
 ぴりっと
+ぴりつく/5A5I5T5E5OBDUYUBubKN
 ぴりぴり
 ぴりり
 ぴんさつ
@@ -287361,6 +287395,7 @@ Shirai Jack
 ふくだみ
 福多味
 ふくだむ
+ふくだめる/1KBDUyUbKN
 ふくち
 福地
 福智
@@ -288131,6 +288166,7 @@ Shirai Jack
 ふざく
 ふざけっこ
 ふざける/1KBDUyUbKNV2
+巫山戯る/1KBDUyUbKNV2
 ふざん
 巫山
 釜山
@@ -291462,6 +291498,7 @@ F
 ふめいろう
 不滅
 ふめつ
+ふめる/1KBDUyUbKN
 ふめん
 譜面
 不面目
@@ -291487,7 +291524,7 @@ F
 ふもんじ
 ふもんぼん
 普門品
-ふやかす
+ふやかす/5A5I5T5E5OBDUYUBubKN
 ふやく
 ふやける/1KBDUyUbKNV2
 ふやじょう
@@ -291731,7 +291768,7 @@ F
 不埒
 ふらち
 ふらっと
-ふらつく
+ふらつく/5A5I5T5E5OBDUYUBubKN
 ふらの
 富良野
 ふらのオムカレー
@@ -292695,7 +292732,7 @@ F
 粉体爆発
 ふんたん
 ふんだく
-ふんだくる
+ふんだくる/5A5I5T5E5OBDUYUBubKN
 ふんだりか
 分荼離迦
 踏んだり蹴ったり
@@ -292787,7 +292824,7 @@ F
 ふんぽう
 ふんぽん
 粉本
-ふんまえる
+ふんまえる/1KBDUyUbKN
 ふんまき
 粉蒔
 ふんまつ
@@ -293646,7 +293683,7 @@ F
 打っ締める/1KBDUyUbKN
 ぶっちめる/1KBDUyUbKN
 ぶっちゃけ
-ぶっちゃける
+ぶっちゃける/1KBDUyUbKN
 ぶっちゃけトーク
 仏頂
 ぶっちょう
@@ -294185,7 +294222,7 @@ F
 ぶらさげる/1KBDUyUbKNV2
 ぶらちょうちん
 ぶら提灯
-ぶらつく
+ぶらつく/5A5I5T5E5OBDUYUBubKN
 ぶらぶら
 ぶらぶらぶし
 ぶらぶら節
@@ -294249,7 +294286,7 @@ F
 武烈
 ぶれつてんのう
 武烈天皇
-ぶれる
+ぶれる/1KBDUyUbKN
 侮弄
 ぶろう
 蕪陋
@@ -295932,7 +295969,7 @@ F
 へいちょく
 へいちりん
 平地林
-へいつくばる
+へいつくばる/5A5I5T5E5OBDUYUBubKN
 へいてい
 兵丁
 平定
@@ -296449,7 +296486,7 @@ F
 へたり牛
 へたり込む/5A5I5T5E5OBDUYUBubKN
 へたりこむ/5A5I5T5E5OBDUYUBubKN
-へたる
+へたる/5A5I5T5E5OBDUYUBubKN
 へたれ
 へだい
 平鯛
@@ -296543,8 +296580,8 @@ F
 へのへのもへじ
 へのり
 舳乗り
-へばりつく
-へばる
+へばりつく/5A5I5T5E5OBDUYUBubKN
+へばる/5A5I5T5E5OBDUYUBubKN
 へひり
 放屁
 へひりむし
@@ -297885,7 +297922,7 @@ F
 別アカ
 べつアカウント
 別アカウント
-べとつく
+べとつく/5A5I5T5E5OBDUYUBubKN
 べとびょう
 べと病
 べとべと
@@ -297987,7 +298024,7 @@ F
 べら
 遍羅
 倍良
-べらつく
+べらつく/5A5I5T5E5OBDUYUBubKN
 べらなり
 べらべら
 篦棒/sa
@@ -300661,6 +300698,7 @@ F
 ほかす
 放下す/5A5I5T5E5OBDUYUBubKN
 ほかす/5A5I5T5E5OBDUYUBubKN
+ほがす/5A5I5T5E5OBDUYUBubKN
 ほかぜ
 帆風
 ほかつ
@@ -300678,7 +300716,7 @@ F
 外外
 ほかめ
 ほからかす/5A5I5T5E5OBDUYUBubKN
-ほかる
+ほかる/5A5I5T5E5OBDUYUBubKN
 保管
 ほかん
 補完
@@ -301255,7 +301293,7 @@ F
 補剤
 ほざきのふさも
 穂咲きの総藻
-ほざく
+ほざく/5A5I5T5E5OBDUYUBubKN
 ほし
 欲し/xAxaxixIxUxExexx
 ほし/xAxaxixIxUxExexx
@@ -302218,7 +302256,7 @@ F
 堀田正睦
 堀田善衛
 ほったよしえ
-ほったらかす
+ほったらかす/5A5I5T5E5OBDUYUBubKN
 ほったん
 発端
 ほっ散らかす/5A5I5T5E5OBDUYUBubKN
@@ -302227,7 +302265,7 @@ F
 ほっつきあるく/5A5I5T5E5OBDUYUBubKN
 ほっつき回る/5A5I5T5E5OBDUYUBubKN
 ほっつきまわる/5A5I5T5E5OBDUYUBubKN
-ほっつく
+ほっつく/5A5I5T5E5OBDUYUBubKN
 ほって
 発伝
 ほっても
@@ -302235,7 +302273,7 @@ F
 ほっとう
 ほっとうにん
 発頭人
-ほっとく
+ほっとく/5A5I5T5E5OBDUYUBubKN
 ほっとり
 ほっぴょうよう
 北氷洋
@@ -302255,10 +302293,10 @@ F
 北方領土
 ほっぽおんせん
 発哺温泉
-ほっぽらかす
+ほっぽらかす/5A5I5T5E5OBDUYUBubKN
 ほっぽり出す/5A5I5T5E5OBDUYUBubKN
 ほっぽりだす/5A5I5T5E5OBDUYUBubKN
-ほっぽる
+ほっぽる/5A5I5T5E5OBDUYUBubKN
 ほつ
 ほつい
 ほつえ
@@ -302267,7 +302305,7 @@ F
 ほつき歩く/5A5I5T5E5OBDUYUBubKN
 ほつきあるく/5A5I5T5E5OBDUYUBubKN
 ほつぎ
-ほつく
+ほつく/5A5I5T5E5OBDUYUBubKN
 ほつご
 ほつしもめん
 解し木綿
@@ -305735,10 +305773,10 @@ F
 ぼや
 戊夜
 暮夜
-ぼやかす
+ぼやかす/5A5I5T5E5OBDUYUBubKN
 ぼやき
 ぼやく/5A5I5T5E5OBDUYUBubKN
-ぼやける
+ぼやける/1KBDUyUbKN
 ぼやっと
 ぼやぼや
 ぼよう
@@ -305748,7 +305786,7 @@ F
 ぼりぼり
 ぼりや
 暴利屋
-ぼる
+ぼる/5A5I5T5E5OBDUYUBubKN
 ぼれい
 ぼろ
 梵論
@@ -307751,7 +307789,7 @@ F
 孫抱き
 まごだな
 孫店
-まごつく
+まごつく/5A5I5T5E5OBDUYUBubKN
 まごでし
 孫弟子
 まごのて
@@ -308276,7 +308314,7 @@ F
 まずめ
 先ず以て
 まずもって
-まずる
+まずる/5A5I5T5E5OBDUYUBubKN
 ませ
 間狭
 ませい
@@ -310502,7 +310540,7 @@ F
 まやかし
 まやかしもの
 まやかし物
-まやかす
+まやかす/5A5I5T5E5OBDUYUBubKN
 まやく
 麻薬
 痲薬
@@ -314625,6 +314663,7 @@ F
 御手代
 見て取る/5A5I5T5E5OBDUYUBubKN
 みてとる/5A5I5T5E5OBDUYUBubKN
+みてる/1KBDUyUbKN
 みと
 水戸
 みとあたわす
@@ -317465,8 +317504,10 @@ F
 むかっと
 むかっぱら
 向かっ腹
+むかつかす/5A5I5T5E5OBDUYUBubKN
+むかつかせる/1KBDUyUbKN
 むかつき
-むかつく
+むかつく/5A5I5T5E5OBDUYUBubKN
 むかで
 蜈蚣
 むかでこばん
@@ -318738,6 +318779,7 @@ F
 無上命法
 むじょうもん
 無常門
+むじる/5A5I5T5E5OBDUYUBubKN
 むじるし
 無印
 むじん
@@ -318918,7 +318960,7 @@ F
 むず痒い/XAXaXiXIXUXEXeXxGRSAXKToXQXrXO
 むずがゆい/XAXaXiXIXUXEXeXxGRSAXKToXQXrXO
 むずつかす
-むずつく
+むずつく/5A5I5T5E5OBDUYUBubKN
 むずと
 むずむず
 むずむずあししょうこうぐん
@@ -322318,7 +322360,7 @@ F
 減上
 減り込む/5A5I5T5E5OBDUYUBubKN
 めりこむ/5A5I5T5E5OBDUYUBubKN
-めりつく
+めりつく/5A5I5T5E5OBDUYUBubKN
 めりはり
 減り張り
 乙張り
@@ -323912,6 +323954,7 @@ F
 錑錐
 もじぐさり
 文字鎖
+もじける/1KBDUyUbKN
 もじげんご
 文字言語
 もじことば
@@ -324028,7 +324071,7 @@ F
 持たせる/1KBDUyUbKN
 もたせる/1KBDUyUbKN
 もたつき
-もたつく
+もたつく/5A5I5T5E5OBDUYUBubKN
 もたもた
 齎す/5A5I5T5E5OBDUYUBubKN
 もたらす/5A5I5T5E5OBDUYUBubKN
@@ -325627,7 +325670,7 @@ F
 萌やす/5A5I5T5E5OBDUYUBubKN
 もやす/5A5I5T5E5OBDUYUBubKN
 もやつき
-もやつく
+もやつく/5A5I5T5E5OBDUYUBubKN
 もやのだいきょう
 母屋の大饗
 もやもや
@@ -328510,7 +328553,7 @@ F
 やっかさえき
 薬価差益
 やっかみ
-やっかむ
+やっかむ/5A5I5T5E5OBDUYUBubKN
 やっかん
 約款
 やっき
@@ -333761,6 +333804,7 @@ F
 油砂
 ゆさい
 油彩
+ゆさつく/5A5I5T5E5OBDUYUBubKN
 ゆさぶられっこしょうこうぐん
 揺さぶられっ子症候群
 ゆさぶり
@@ -338767,7 +338811,8 @@ F
 予防的信用枠
 よぼうてきそち
 予防的措置
-よぼける
+よぼくれる/1KBDUyUbKN
+よぼける/1KBDUyUbKN
 よぼよぼ
 よま
 四間
@@ -340506,7 +340551,7 @@ F
 蘭陵王
 羅竜王
 羅陵王
-らりる
+らりる/5A5I5T5E5OBDUYUBubKN
 らる
 羅列
 られつ
@@ -351212,7 +351257,7 @@ F
 我女房
 和女房
 わにょうぼう
-わにる
+わにる/1KBDUyUbKN
 わぬ
 わぬけ
 輪抜け
@@ -400616,6 +400661,7 @@ Demagog
 デマメール
 デマレージ
 demurrage
+デマる/5A5I5T5E5OBDUYUBubKN
 デマンド
 デマンドサイド
 demand side
@@ -426822,6 +426868,7 @@ possibility
 ポシブル
 possible
 ポシャギ
+ポシャる/5A5I5T5E5OBDUYUBubKN
 ポシンタン
 補身湯
 ポジ
