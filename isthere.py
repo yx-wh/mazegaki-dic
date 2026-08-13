@@ -6,7 +6,7 @@ import sys
 def main():
     # 文件路径（可根据需要修改为命令行参数）
     csv_file = 'ipadic.maze.csv'
-    txt_file = '3k-2.txt'
+    txt_file = 'smk-2.txt'
 
     # 读取 CSV 中所有表面形（第一列）
     surfaces = set()

@@ -15,22 +15,22 @@ def extract_kanji(line: str) -> str | None:
     return None
 
 def main():
-    # 读取查询词列表（3k-4.txt 的每一行）
+    # 读取查询词列表（smk-4.txt 的每一行）
     queries = []
     try:
-        with open('3k-4.txt', 'r', encoding='utf-8') as f:
+        with open('smk-4.txt', 'r', encoding='utf-8') as f:
             for line in f:
                 q = line.strip()
                 if q:   # 忽略空行
                     queries.append(q)
     except FileNotFoundError:
-        print("错误：找不到文件 3k-4.txt", file=sys.stderr)
+        print("错误：找不到文件 smk-4.txt", file=sys.stderr)
         sys.exit(1)
 
-    # 读取 3k-b.txt，建立“汉字 → 对应行列表”的映射
+    # 读取 smk-b.txt，建立“汉字 → 对应行列表”的映射
     b_dict = {}
     try:
-        with open('3k-b.txt', 'r', encoding='utf-8') as f:
+        with open('smk-b.txt', 'r', encoding='utf-8') as f:
             for line in f:
                 line = line.strip()
                 if not line:
@@ -39,7 +39,7 @@ def main():
                 if kanji is not None:
                     b_dict.setdefault(kanji, []).append(line)
     except FileNotFoundError:
-        print("错误：找不到文件 3k-b.txt", file=sys.stderr)
+        print("错误：找不到文件 smk-b.txt", file=sys.stderr)
         sys.exit(1)
 
     # 逐条查询并输出所有匹配行
