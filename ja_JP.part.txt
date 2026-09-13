@@ -358448,7 +358448,7 @@ isopropanol
 伊曽保物語
 イソロイシン
 isoleucine
-イタい/SGSOXKToXQXrXO
+イタい/GRGESASGSOXKToXQXrXO
 イタご
 イタ語
 イタしゃ
@@ -358827,7 +358827,7 @@ image processing
 image maker
 イメージリサーチ
 image research
-イモい/SGSOXKToXQXrXO
+イモい/GRGESASGSOXKToXQXrXO
 イモビ
 イモビカッター
 イモビライザー
@@ -362849,7 +362849,7 @@ echo machine
 École polytechnique
 エゴ
 ego
-エゴい/SGSOXKToXQXrXO
+エゴい/GRGESASGSOXKToXQXrXO
 エゴイスティック
 egoistic
 エゴイスト
@@ -363987,7 +363987,7 @@ Emmental
 Emmental cheese
 エモ
 emo
-エモい/SGSOXKToXQXrXO
+エモい/GRGESASGSOXKToXQXrXO
 エモコア
 emocore
 エモティコン
@@ -364473,9 +364473,9 @@ Ellen Key
 Il’ya Grigor’evich Erenburg
 エロ
 Gudmundur Gudmundsson Erró
-エロい/SGSOXKToXQXrXO
+エロい/GRGESASGSOXKToXQXrXO
 エロかっこいい
-エロか/GRGESASGSOXKToXQXrXOわいい
+エロかわいい/GRGESASGSOXKToXQXrXO
 エロ可愛い/GRGESASGSOXKToXQXrXO
 エロアしきん
 エロア資金
@@ -371418,7 +371418,7 @@ Kishinev
 キシュ
 Danilo Kiš
 quiche
-キショい/SGSOXKToXQXrXO
+キショい/GRGESASGSOXKToXQXrXO
 キシリトール
 xylitol
 キシレン
@@ -376487,7 +376487,7 @@ grain whisky
 グレーンフェッドビーフ
 grain-fed beef
 グロ
-グロい/SGSOXKToXQXrXO
+グロい/GRGESASGSOXKToXQXrXO
 グロかわ
 グロキシニア
 gloxinia
@@ -377215,7 +377215,7 @@ Gestalt
 ゲジ眉
 ゲス
 guess
-ゲスい/SGSOXKToXQXrXO
+ゲスい/GRGESASGSOXKToXQXrXO
 ゲスト
 guest
 ゲストティーチャー
@@ -383243,7 +383243,7 @@ zakuska
 Zagreb
 ザグロスさんみゃく
 ザグロス山脈
-ザコい/SGSOXKToXQXrXO
+ザコい/GRGESASGSOXKToXQXrXO
 ザッキン
 Ossip Zadkine
 ザック
@@ -384259,7 +384259,7 @@ sim-com
 Georges Simenon
 シムラ
 Simla
-シモい/SGSOXKToXQXrXO
+シモい/GRGESASGSOXKToXQXrXO
 シモキタ
 シモニデス
 Simōnidēs
@@ -391887,7 +391887,7 @@ doek
 Sudeten
 ズビニこうちゅう
 ズビニ鉤虫
-ズブい/SGSOXKToXQXrXO
+ズブい/GRGESASGSOXKToXQXrXO
 ズブロッカ
 zubrovka
 ズベーボ
@@ -397038,7 +397038,7 @@ Chamorro
 Aleksandr Vasil’evich Chayanov
 チャヨテ
 chayote
-チャラい/SGSOXKToXQXrXO
+チャラい/GRGESASGSOXKToXQXrXO
 チャラお
 チャラ男
 チャラこ
@@ -398326,7 +398326,7 @@ textmessaging
 テキーラ
 tequila
 テク
-テクい/SGSOXKToXQXrXO
+テクい/GRGESASGSOXKToXQXrXO
 テクる/5A5I5T5E5OBDUYUBubKN
 テクスタイル
 テクスチャー
@@ -403891,7 +403891,7 @@ nine ball
 naive
 ナウ
 now
-ナウい/SGSOXKToXQXrXO
+ナウい/GRGESASGSOXKToXQXrXO
 ナウキャストじしんじょうほう
 ナウキャスト地震情報
 ナウシカア
@@ -404289,7 +404289,7 @@ Namche Bazar
 namplaa
 ナムポ
 ナムル
-ナヨい/SGSOXKToXQXrXO
+ナヨい/GRGESASGSOXKToXQXrXO
 ナラタージュ
 narratage
 ナラティブ
@@ -418924,7 +418924,7 @@ Murray Bookchin
 ブクレシュチ
 București
 ブクロ
-ブサい/SGSOXKToXQXrXO
+ブサい/GRGESASGSOXKToXQXrXO
 ブサかわ
 ブサ可愛
 ブサかわいい/GRGESASGSOXKToXQXrXO
@@ -421632,7 +421632,7 @@ plain knot
 プレーンヨーグルト
 plain yogurt
 プロ
-プロい/SGSOXKToXQXrXO
+プロい/GRGESASGSOXKToXQXrXO
 プロどうじん
 プロ同人
 プロやきゅう
@@ -422833,7 +422833,7 @@ Hellēnes
 Hereford
 ヘレンケラー
 Helen Adams Keller
-ヘロい/SGSOXKToXQXrXO
+ヘロい/GRGESASGSOXKToXQXrXO
 ヘロイン
 Heroin
 ヘロット
@@ -424358,7 +424358,7 @@ peperoncini
 peperoncino
 ペミカン
 pemmican
-ペラい/SGSOXKToXQXrXO
+ペラい/GRGESASGSOXKToXQXrXO
 ペラごろ
 ペラギウス
 Pelagius
@@ -436181,7 +436181,7 @@ La France
 Rafflesia
 ラブ
 love
-ラブい/SGSOXKToXQXrXO
+ラブい/GRGESASGSOXKToXQXrXO
 ラブうん
 ラブ運
 ラブは
