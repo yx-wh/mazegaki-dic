@@ -71,10 +71,17 @@ with open(input_file, "r", encoding="utf-8") as f_in, \
         if form == target_base:
             continue
         
-        # 如果有对应的词缀标记，先输出带标记的行
+        ## 如果有对应的词缀标记，先输出带标记的行
+        #if word_type in MARKERS:
+        #    marker = MARKERS[word_type]
+        #    f_out.write(f"{form}/{marker}\n")
+        #
+        ## 输出 st: 映射行
+        #f_out.write(f"{form} st:{target_base}\n")
+        # 如果有对应的词缀标记，输出带标记 + st: 的行
         if word_type in MARKERS:
             marker = MARKERS[word_type]
-            f_out.write(f"{form}/{marker}\n")
-        
-        # 输出 st: 映射行
-        f_out.write(f"{form} st:{target_base}\n")
+            f_out.write(f"{form}/{marker} st:{target_base}\n")
+        else:
+            # 没有标记类型时，仍然输出 st: 映射
+            f_out.write(f"{form} st:{target_base}\n")
