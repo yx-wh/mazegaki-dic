@@ -30,7 +30,7 @@ MARKERS = {
     'v5':   '5A5I5T5E5OBDUYUBubKN',
     'v1':   '1KBDUyUbKN',
     'vs':   '3A3a3I3E3e',
-    'adj1': 'GRGESASGSOXKToXQXrXO',   # 形容詞
+    'adj1': 'GRGESASGSOXKXQXrXO',   # 形容詞
     'adj2': 'sosgsa',                 # 形動
 }
 
