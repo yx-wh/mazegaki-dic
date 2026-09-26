@@ -31,7 +31,7 @@ MARKERS = {
     'v1':   '1KBDUyUbKN',
     'vs':   '3A3a3I3E3e',
     'adj1': 'GRGESASGSOXKXQXrXO',   # 形容詞
-    'adj2': 'sosgsa',                 # 形動
+    'adj2': 'sosgsasnsi',             # 形動（そう/すぎ/さ + な/に）
 }
 
 with open(input_file, "r", encoding="utf-8") as f_in, \
