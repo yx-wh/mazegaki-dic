@@ -69,12 +69,108 @@ def load_yn_bases(path=part_file):
 
 YN_BASES = load_yn_bases()
 
+
+# --- 补发「不在 part.txt 的 BASE 词」--------------------------------------
+# CSV 的 BASE 行只记录原形、从不输出（设计上假定它们已在 part.txt）。
+# 但有 1 万多个 BASE 词不在 part.txt，于是它们只当别人的 st: 终点、自己不是词条，
+# 连带它们的活用形也进不了词典（味付けた 还原不了）。
+# 例外：IME 专用的交ぜ書き置換形（う余曲折 / 金太郎あめ）不该当 hunspell 词目 ——
+# 不会有辞典以「う余曲折」为索引。判据与 ja_fix_mazegaki_chain.py 一致。
+
+KANJI_RE = re.compile(r'[\u4e00-\u9faf]')
+KANA_RE = re.compile(r'[ぁ-んァ-ヴー]')
+
+
+def _is_subseq(sub, full) -> bool:
+    it = iter(full)
+    return all(c in it for c in sub)
+
+
+def load_part_words(path=part_file):
+    words = set()
+    try:
+        with open(path, encoding="utf-8") as fh:
+            for line in fh:
+                head = line.split(" ", 1)[0].strip()
+                if head:
+                    words.add(head.partition("/")[0])
+    except OSError as exc:
+        print(f"[warn] 读 {path} 失败: {exc}", file=sys.stderr)
+    return words
+
+
+def load_ime_dirt(path=input_file):
+    """混写 BASE + 从未作为交ぜ書き出现过 + 汉字是同读音更全形式的子序列 → IME 脏数据。"""
+    bases, by_reading, variants = {}, {}, set()
+    try:
+        with open(path, encoding="utf-8") as fh:
+            for line in fh:
+                line = line.rstrip("\n")
+                if not line:
+                    continue
+                p = line.split("\t")
+                if line.endswith("--\tBASE"):
+                    if len(p) >= 4:
+                        bases[p[1]] = p[3]
+                        by_reading.setdefault(p[3], []).append(p[1])
+                elif len(p) >= 4:
+                    variants.add(p[0])
+    except OSError as exc:
+        print(f"[warn] 读 {path} 失败: {exc}", file=sys.stderr)
+        return set()
+    dirt = set()
+    for w, rd in bases.items():
+        if not (KANJI_RE.search(w) and KANA_RE.search(w)) or w in variants:
+            continue
+        kw = KANJI_RE.findall(w)
+        for sib in by_reading.get(rd, ()):
+            if sib == w:
+                continue
+            ks = KANJI_RE.findall(sib)
+            if len(ks) > len(kw) and _is_subseq(kw, ks):
+                dirt.add(w)
+                break
+    return dirt
+
+
+PART_WORDS = load_part_words()
+IME_DIRT = load_ime_dirt()
+
+
+# 注：人工批注的映射（あいさつ回り -> 挨拶回り 等 69 条）已由
+# scripts/ja_apply_manual_to_csv.py patch 进 ipadic.maze.csv，
+# 数据自包含，这里不再需要读映射表。
+
+
+# --- 旧字体 -> 新字体 ------------------------------------------------------
+# 辞典只收新字体（与える / 挙げる / 元の木阿弥），旧字体形（與える / 擧げる /
+# 元の木阿彌）查不到。用 opencc 的 t2jp 补一条 st: 指过去，划词时就能跳到
+# 辞典收得着的写法。
+#
+# 必须加护栏：opencc 有反向错误（疎外 -> 疏外、疎開 -> 疏開，日语标准是 疎），
+# 所以只在「新字体形确实是 part.txt 已有词目、且旧字体形不是」时才生成 ——
+# 这样 缺(在 part.txt) 之类会被自动排除。
+try:
+    from opencc import OpenCC as _OpenCC
+    _T2JP = _OpenCC("t2jp")
+except Exception as exc:                                   # pragma: no cover
+    print(f"[warn] opencc 不可用，旧字体映射已跳过: {exc}", file=sys.stderr)
+    _T2JP = None
+
+
+def shinjitai(word: str) -> str:
+    """旧字体/繁体 -> 日本新字体。opencc 不收的异体（擧）会原样返回。"""
+    return _T2JP.convert(word) if _T2JP is not None else word
+
 with open(input_file, "r", encoding="utf-8") as f_in, \
      open(output_file, "w", encoding="utf-8") as f_out:
     
     current_base = None
     current_pos = None
     yn_hits = 0
+    missing_bases = {}      # 不在 part.txt 的 BASE 词 -> 品詞
+    emitted = set()         # 本轮已写出的交ぜ書き形
+    old_hits = 0            # 旧字体 -> 新字体 映射条数
     
     for line in f_in:
         line = line.strip()
@@ -87,6 +183,11 @@ with open(input_file, "r", encoding="utf-8") as f_in, \
             if len(parts) >= 3:
                 current_base = parts[1]
                 current_pos = parts[2]
+            # 原本只记录、不输出；这里顺手记下「不在 part.txt 的 BASE 词」，
+            # 循环结束后补发（见文件末尾）
+            if (len(parts) >= 3 and current_base not in PART_WORDS
+                    and current_base not in IME_DIRT):
+                missing_bases.setdefault(current_base, current_pos)
             continue
         
         # 非 BASE 行
@@ -124,9 +225,42 @@ with open(input_file, "r", encoding="utf-8") as f_in, \
                 marker += "YN"
                 yn_hits += 1
             f_out.write(f"{form}/{marker} st:{target_base}\n")
+            emitted.add(form)
+            # 交ぜ書き形里若含旧字体，再补一条指向新字体写法的
+            if shinjitai(form) not in (form, target_base) \
+                    and shinjitai(form) in PART_WORDS and form not in PART_WORDS:
+                f_out.write(f"{form}/{marker} st:{shinjitai(form)}\n")
+                old_hits += 1
         else:
             # 没有标记类型时，仍然输出 st: 映射
             f_out.write(f"{form} st:{target_base}\n")
+            emitted.add(form)
+            if shinjitai(form) not in (form, target_base) \
+                    and shinjitai(form) in PART_WORDS and form not in PART_WORDS:
+                f_out.write(f"{form} st:{shinjitai(form)}\n")
+                old_hits += 1
+
+    # 补发「不在 part.txt 的 BASE 词」：它们自己不是词条，连带活用形也进不来。
+    # 跳过 IME 交ぜ書き置換形，以及本轮已作为交ぜ書き写出的（那种已有 st: 指向原形）。
+    added = 0
+    for word, pos in missing_bases.items():
+        if word in emitted:
+            continue
+        marker = MARKERS.get(get_word_type(word, pos), "")
+        new = shinjitai(word)
+        if new != word and new in PART_WORDS and word not in PART_WORDS:
+            # 旧字体形本身：直接指到新字体形，辞典才收得着
+            f_out.write(f"{word}/{marker} st:{new}\n" if marker
+                        else f"{word} st:{new}\n")
+            old_hits += 1
+        else:
+            f_out.write(f"{word}/{marker}\n" if marker else f"{word}\n")
+        added += 1
 
 print(f"[info] YN 源头 {len(YN_BASES)} 条；本轮传播到 {yn_hits} 条交ぜ書き写法",
       file=sys.stderr)
+print(f"[info] 补发缺失 BASE 词 {added} 条"
+      f"（IME 混写脏数据已排除 {len(IME_DIRT)} 条）", file=sys.stderr)
+print(f"[info] 旧字体 -> 新字体 映射 {old_hits} 条"
+      f"（opencc t2jp，带 part.txt 护栏）", file=sys.stderr)
+
