@@ -1,4 +1,5 @@
 *.dic
+*.bak
 *.un~
 3k-*.txt
 3k-*.tsv
