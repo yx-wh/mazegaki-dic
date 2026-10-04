@@ -1,9 +1,14 @@
+import pickle
 import re
 import sys
+from pathlib import Path
 
 input_file = "ipadic.maze.csv"
 output_file = "mazegaki_st.txt"
 part_file = "ja_JP.part.txt"
+# 六本辞典的见出语集合，用于给 IME 过滤器加护栏
+headwords_pkl = str(Path(__file__).resolve().parent.parent
+                    / "scripts" / "_ja_headwords" / "headwords.pkl")
 
 def is_kana_only(s):
     return re.fullmatch(r'[ぁ-ん]+', s) is not None
@@ -99,8 +104,43 @@ def load_part_words(path=part_file):
     return words
 
 
-def load_ime_dirt(path=input_file):
-    """混写 BASE + 从未作为交ぜ書き出现过 + 汉字是同读音更全形式的子序列 → IME 脏数据。"""
+def load_dict_writings(path=headwords_pkl):
+    """六本辞典见出语里的「写法」集合（不是读音）。
+
+    headwords.pkl 里多是『假名词头 +【汉字】』结构（まがりざし【曲がり差し】），
+    两种成分都是合法写法，都要收。**只取括号外的假名词头是不够的** —— 那只是读音，
+    拿它匹配只说明「这个词存在」，不能说明这个写法被索引（我第一次就这么错，
+    把 145 条误判成「都能匹配上」）。
+
+    读不到就返回 None，调用方退回「纯判据」模式（行为与加护栏之前一致）。
+    """
+    try:
+        with open(path, "rb") as fh:
+            hw = pickle.load(fh)
+    except OSError as exc:
+        print(f"[warn] 读 {path} 失败，IME 过滤器退回纯判据: {exc}", file=sys.stderr)
+        return None
+    out = set()
+    for s in hw.values():
+        for x in s:
+            m = re.match(r'^(.+?)【(.*?)】$', x)
+            if m:
+                out.add(m.group(1))                 # 假名词头
+                if m.group(2) and m.group(2) != '∅':
+                    out.add(m.group(2))             # 【】内的汉字写法
+            else:
+                out.add(x)
+    return out
+
+
+def load_ime_dirt(path=input_file, writings=None):
+    """混写 BASE + 从未作为交ぜ書き出现过 + 汉字是同读音更全形式的子序列 → IME 脏数据。
+
+    判据只说明「存在一个更汉字的写法」，并不说明这个混写形不是辞典词目。
+    所以还要加一道护栏：**六本辞典只要有一本以该写法立目，就不算脏数据**
+    （取り上せる / 夜すがら / 見ず転 / 忘れな草 …）。
+    writings 为 None 时退回纯判据。
+    """
     bases, by_reading, variants = {}, {}, set()
     try:
         with open(path, encoding="utf-8") as fh:
@@ -119,6 +159,7 @@ def load_ime_dirt(path=input_file):
         print(f"[warn] 读 {path} 失败: {exc}", file=sys.stderr)
         return set()
     dirt = set()
+    spared = 0
     for w, rd in bases.items():
         if not (KANJI_RE.search(w) and KANA_RE.search(w)) or w in variants:
             continue
@@ -128,13 +169,20 @@ def load_ime_dirt(path=input_file):
                 continue
             ks = KANJI_RE.findall(sib)
             if len(ks) > len(kw) and _is_subseq(kw, ks):
+                if writings is not None and w in writings:
+                    spared += 1          # 有辞典以它为索引 => 是真词目，不排除
+                    continue
                 dirt.add(w)
                 break
+    if spared:
+        print(f"[info] IME 判据命中但有辞典收录、已放行 {spared} 条",
+              file=sys.stderr)
     return dirt
 
 
 PART_WORDS = load_part_words()
-IME_DIRT = load_ime_dirt()
+DICT_WRITINGS = load_dict_writings()
+IME_DIRT = load_ime_dirt(writings=DICT_WRITINGS)
 
 
 # 注：人工批注的映射（あいさつ回り -> 挨拶回り 等 69 条）已由
