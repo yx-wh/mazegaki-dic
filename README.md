@@ -2,7 +2,7 @@
 Google日本語入力で使える漢直向けの交ぜ書き辞書を、GoldenDictで使えるHunspell辞書に変換します。<br/>
 mecab-ipadic-2.7.0-20070801 の \*.csv から作成しています。
 
-python3 convert_with_conjugation.py && python3 sort_lines.py mazegaki_st.txt mazegaki_st_sorted.txt && python3 dedup_sorted.py mazegaki_st_sorted.txt mazegaki_st_sorted_dedup.txt && python3 merge_with_count.py ja_JP.part.txt mazegaki_st_sorted_dedup.txt ja_JP.dic
+python3 convert_with_conjugation.py && python3 sort_lines.py mazegaki_st.txt mazegaki_st_sorted.txt && python3 dedup_sorted.py mazegaki_st_sorted.txt mazegaki_st_sorted_dedup.txt && python3 merge_with_count.py ja_JP.part.txt mazegaki_st_sorted_dedup.txt ja_JP.dic && python3 add_homonym_flag.py ja_JP.dic --apply
 
 ## ファイルの説明
 
@@ -80,3 +80,26 @@ mazegaki_st.txtを並べ替えます。
 python3 merge_with_count.py A B C<br/>
 
 ファイルAとファイルBとをくっつけてファイルCを作ります。またファイルCの冒頭でファイルの行数を記入します。
+
+### add_homonym_flag.py
+python3 add_homonym_flag.py ja_JP.dic --apply<br/>
+
+同じ head が複数行ある場合、その**すべての行**に未定義フラグ `Zz` を付けます。
+hunspell 1.7.3–1.7.6 の `HashMgr::add_word()` は「同 head・affix flag なし」の行を
+`HENTRY_DATA`（`st:` など）を比較せず重複として捨てるため、たとえば
+
+```
+青み st:青味
+青み st:青身
+```
+
+の片方が静かに消えます（`spell()` は true のままなので気付けません）。
+flag が付いていれば `next_homonym` 側に回り、両方残ります。
+
+`Zz` は **ja_JP.aff で定義しないこと**（定義すると語形派生が始まる）。`FLAG long` なので
+2 文字が必要です。`Xx`/`xx` は形容詞規則として既に使われているため借用できません。
+既定は dry-run、`--apply` で書き込み（`.bak` を自動作成、冪等）。
+
+**hunspell 1.7.3–1.7.6 が現役でなくなったら（各ディストリ LTS を含む）、
+この工程ごとパイプラインから削除してよいです。**
+
