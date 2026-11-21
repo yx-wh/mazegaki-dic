@@ -2,7 +2,7 @@
 Google日本語入力で使える漢直向けの交ぜ書き辞書を、GoldenDictで使えるHunspell辞書に変換します。<br/>
 mecab-ipadic-2.7.0-20070801 の \*.csv から作成しています。
 
-python3 convert_with_conjugation.py && python3 sort_lines.py mazegaki_st.txt mazegaki_st_sorted.txt && python3 dedup_sorted.py mazegaki_st_sorted.txt mazegaki_st_sorted_dedup.txt && python3 merge_with_count.py ja_JP.part.txt mazegaki_st_sorted_dedup.txt ja_JP.dic && python3 add_homonym_flag.py ja_JP.dic --apply
+python3 ../hunspell_ja_JP/apply_iconv_to_dic.py ../hunspell_ja_JP/ja_JP.aff ja_JP.part.txt --plain --apply && python3 convert_with_conjugation.py && python3 sort_lines.py mazegaki_st.txt mazegaki_st_sorted.txt && python3 dedup_sorted.py mazegaki_st_sorted.txt mazegaki_st_sorted_dedup.txt && python3 merge_with_count.py ja_JP.part.txt mazegaki_st_sorted_dedup.txt ja_JP.dic && python3 ../hunspell_ja_JP/apply_iconv_to_dic.py ../hunspell_ja_JP/ja_JP.aff ja_JP.dic --apply && python3 add_homonym_flag.py ja_JP.dic --apply
 
 ## ファイルの説明
 
@@ -80,6 +80,21 @@ mazegaki_st.txtを並べ替えます。
 python3 merge_with_count.py A B C<br/>
 
 ファイルAとファイルBとをくっつけてファイルCを作ります。またファイルCの冒頭でファイルの行数を記入します。
+
+### apply_iconv_to_dic.py（hunspell_ja_JP 側）
+
+`ja_JP.aff` の `ICONV`（旧字体・繁体→新字体）に合わせて、`.dic` と
+`ja_JP.part.txt` の見出しを折り畳みます。ICONV は**入力**側で効くため、旧字体の
+ままの行は引けなくなります（`spell()` では気付けません）。
+
+```bash
+python3 ../hunspell_ja_JP/apply_iconv_to_dic.py ../hunspell_ja_JP/ja_JP.aff ja_JP.part.txt --plain --apply
+python3 ../hunspell_ja_JP/apply_iconv_to_dic.py ../hunspell_ja_JP/ja_JP.aff ja_JP.dic --apply
+```
+
+冪等なので、`ICONV` を変えたときだけでなく毎回実行して構いません。生成後の
+`ja_JP.dic` に掛けたあと `add_homonym_flag.py` を実行してください（折り畳みで
+同じ head が増えることがあるため）。
 
 ### add_homonym_flag.py
 python3 add_homonym_flag.py ja_JP.dic --apply<br/>
